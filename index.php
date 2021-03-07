@@ -2,6 +2,6 @@
   Hello World!
 </h1>
 <?php
-$host = getenv('DB_HOST');
+$host = $_ENV["DB_HOST"];
 echo $host;
 ?>
