@@ -4,4 +4,5 @@
 <?php
 $host = $_ENV["DB_HOST"];
 echo $host;
+echo "Is php working?";
 ?>
